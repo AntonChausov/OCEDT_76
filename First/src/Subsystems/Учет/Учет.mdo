@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>ChartOfAccounts.Управленческий</content>
   <content>AccountingRegister.Управленческий</content>
+  <content>Document.ПеремещениеПоСкладам</content>
 </mdclass:Subsystem>

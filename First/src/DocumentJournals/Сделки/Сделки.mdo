@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84a9344a-202d-47ca-9a1b-b1b44f6820cc">
+  <producedTypes>
+    <selectionType typeId="ac7923e2-e79b-45de-919f-16f53e154928" valueTypeId="eb173716-b5b9-4ebd-bfb9-4d0d6edc04f1"/>
+    <listType typeId="f138ba73-f955-49f7-90b4-4a5e27737b0c" valueTypeId="ce5976db-32bc-418c-a2ea-1e2d0f050b45"/>
+    <managerType typeId="57499a11-1e07-4c1b-b67a-268052824581" valueTypeId="4da64a4e-f37f-4c80-9306-956e628af5db"/>
+  </producedTypes>
+  <name>Сделки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сделки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПоступлениеТоваровИУслуг</registeredDocuments>
+  <registeredDocuments>Document.РеализацияТоваровИУслуг</registeredDocuments>
+  <columns uuid="1863e0de-d6ea-49ea-8c23-ecc660c53607">
+    <name>Контаргент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контаргент</value>
+    </synonym>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.Покупатель</references>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.Поставщик</references>
+  </columns>
+  <columns uuid="27762e47-87d6-4b04-b5c2-3a4abfe0ea6f">
+    <name>ОтветственноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственное лицо</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.Ответственный</references>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.ОтветственноеЛицо</references>
+  </columns>
+  <columns uuid="5ff7b842-6c89-4fc7-ada9-3fa004d3364e">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.Сумма</references>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.Сумма</references>
+  </columns>
+</mdclass:DocumentJournal>

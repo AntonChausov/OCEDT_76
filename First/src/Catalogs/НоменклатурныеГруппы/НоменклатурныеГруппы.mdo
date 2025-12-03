@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2203f88-d47f-4e09-affe-7bedbf73bf10">
+  <producedTypes>
+    <objectType typeId="c410aac8-1a41-4615-b50f-b71028d58ef6" valueTypeId="3f898226-bdc3-4aa3-94e2-40e5e4226c30"/>
+    <refType typeId="1bf8c10f-0d26-4bff-879f-af6785a3fedb" valueTypeId="3dd44c36-7589-47c5-a05d-a9f6e71002a7"/>
+    <selectionType typeId="ee541b4e-c7e7-4f42-ad73-2f9f0c31fd97" valueTypeId="639d4ba8-98ae-49e8-84d4-7ef518ff41aa"/>
+    <listType typeId="d91278c9-170b-4edd-ae9b-60f74615bb31" valueTypeId="7a27f514-8777-4b14-a345-9e9d3863b273"/>
+    <managerType typeId="acbe36fb-2ea2-453b-ba03-c93d0f966d1c" valueTypeId="1df5e593-7253-459a-a047-7b1552256058"/>
+  </producedTypes>
+  <name>НоменклатурныеГруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатурные группы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НоменклатурныеГруппы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НоменклатурныеГруппы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Номенклатурная группа</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Номенклатурные группы</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

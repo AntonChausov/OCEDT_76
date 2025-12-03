@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f0ef2c3-e9e5-47ef-ac46-87541e9f220b">
+  <producedTypes>
+    <selectionType typeId="58a1e76a-ea91-46e7-8e66-7061669665bc" valueTypeId="01e8766c-f500-4541-a510-f81ad4cb3a51"/>
+    <listType typeId="ba0a0049-10d3-453e-812b-8a003dd55369" valueTypeId="df7729e1-273a-4bfa-beb0-488b74882021"/>
+    <managerType typeId="ec5cdc91-2eb5-43c4-a346-d67cf5ea39c1" valueTypeId="315a5c1a-f2e5-470c-a704-72feb5a35af5"/>
+    <recordSetType typeId="852e4925-26c8-45ea-80ce-813558a88586" valueTypeId="15cabc87-8721-4692-9d67-2fba95a2f241"/>
+    <recordKeyType typeId="27851680-8706-4308-8ccd-1a5b7b01ad6f" valueTypeId="ecbe0a31-ef7f-4646-a431-d02f96a72681"/>
+    <recordType typeId="6cd038f3-d5f1-4fdb-b646-060a4526e632" valueTypeId="888b7da2-1584-4d51-aa65-7d6a826b2a28"/>
+    <extDimensionsType typeId="9f7a3edc-6957-42d3-a92f-3ac8d8aa3ee6" valueTypeId="63428d2f-ce0d-45bc-821e-bcbf66df2b04"/>
+  </producedTypes>
+  <name>Управленческий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управленческий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.Управленческий</chartOfAccounts>
+  <correspondence>true</correspondence>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="f8582469-cde7-4141-88c7-239e14975ba0">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+</mdclass:AccountingRegister>

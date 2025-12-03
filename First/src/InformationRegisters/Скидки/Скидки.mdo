@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="513eb69c-4923-4b1f-9e10-303d1a9eff2a">
+  <producedTypes>
+    <selectionType typeId="6ddb5681-e97b-4d84-a9a6-6440cf6425f5" valueTypeId="e98419a0-9186-4b2e-b549-ad6a1b299b75"/>
+    <listType typeId="d7ab8ddf-c6fd-435a-a030-5f089e414bde" valueTypeId="451e3315-a42e-4594-9cab-8bdda0529a33"/>
+    <managerType typeId="76b3fd40-ac6f-4b79-a8f7-573c6347a862" valueTypeId="5f2b8da6-0c68-4c61-ab59-73877d8b0e77"/>
+    <recordSetType typeId="35992764-dd80-48d5-b815-c37b95114d34" valueTypeId="643f0373-d39f-40d8-94a8-56eaba086ab8"/>
+    <recordKeyType typeId="1d02eafc-0457-455f-9dd0-217cb69e6301" valueTypeId="bc571df0-b69d-4b29-9851-cace10a9e639"/>
+    <recordType typeId="bb83da6c-79a1-4266-9f5a-d8b8d47c8257" valueTypeId="084fdb92-e876-479f-8a0d-b76a9c2474d1"/>
+    <recordManagerType typeId="aa99e5ca-0793-4d27-8b63-3c857aa65cfd" valueTypeId="6162e25f-ec30-46a9-b96a-64551df38831"/>
+  </producedTypes>
+  <name>Скидки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скидки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8e48823a-3355-4a8b-812b-47ae380338bd">
+    <name>Скидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидка</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Количество</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="82ab6a82-b9e6-4770-a459-e452dd2e8117">
+    <name>НоменклатураНоменклатурнаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура номенклатурная группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+      <types>CatalogRef.НоменклатурныеГруппы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

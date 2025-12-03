@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="586fd37c-1883-4380-b57b-f36b2dfeff37">
+  <producedTypes>
+    <objectType typeId="56dd50b5-ec48-49fe-96dc-fc43c89c8633" valueTypeId="0cc5ef24-9bd9-4700-93e6-0c87958cf851"/>
+    <refType typeId="4285dffd-336c-4b0d-a1f1-ddc7e45f101b" valueTypeId="94d96aa6-06c8-4c37-8724-541281115fa2"/>
+    <selectionType typeId="f8cac4c7-7c11-4251-82d8-ddccb76d7edf" valueTypeId="2827280c-720e-445c-a05e-db2d09f2cf34"/>
+    <listType typeId="36dc4c7e-eb7f-48c3-9ea6-4c37cde1a573" valueTypeId="2d111962-8c47-46d4-8a0d-51523baa5ebb"/>
+    <managerType typeId="3e4c5e70-f7d1-4528-9984-0a7984e4d43a" valueTypeId="b1077279-f1ed-4709-9ee1-e41fc6a44140"/>
+    <extDimensionTypes typeId="54c669f4-a8ed-4668-aa00-dac425414766" valueTypeId="5f3f92ce-bb5e-4045-b69d-79587742cd73"/>
+    <extDimensionTypesRow typeId="83f73a6a-a6d3-46f1-9892-751ebed76437" valueTypeId="c67c08a9-f006-470c-9dc9-16e07ea05b79"/>
+  </producedTypes>
+  <name>Управленческий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управленческий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfAccounts.Управленческий.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfAccounts.Управленческий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeMask>##.#</codeMask>
+  <codeLength>4</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <predefined>
+    <items id="5b55a7da-37b6-4d02-abf3-34b35118a373">
+      <name>Товары</name>
+      <description>Товары</description>
+      <code>41. </code>
+      <order>41. </order>
+      <accountingFlags>ChartOfAccounts.Управленческий.AccountingFlag.Количественный</accountingFlags>
+    </items>
+    <items id="d4c8832e-f53e-4c39-862e-60071fc68baf">
+      <name>ДенежныеСредства</name>
+      <description>Денежные средства</description>
+      <code>50. </code>
+      <order>50. </order>
+    </items>
+    <items id="c1de0ef4-c843-47f1-a71d-60185470bd7f">
+      <name>РасчетыСПоставщиками</name>
+      <description>Расчеты с поставщиками</description>
+      <code>60. </code>
+      <accountType>Passive</accountType>
+      <order>60. </order>
+    </items>
+    <items id="8303677d-fbe2-49a8-8063-c0d968bc2a6e">
+      <name>РасчетыСПокупателями</name>
+      <description>Расчеты с покупателями</description>
+      <code>62. </code>
+      <order>62. </order>
+    </items>
+    <items id="44f076b5-dd1a-4c94-8b04-5715bb7417b6">
+      <name>РасчетыСПресоналом</name>
+      <description>Расчеты с пресоналом</description>
+      <code>70. </code>
+      <accountType>Passive</accountType>
+      <order>70. </order>
+    </items>
+    <items id="6d9a64bc-8066-48ee-8e93-8fdcab3cc351">
+      <name>Продажи</name>
+      <description>Продажи</description>
+      <code>90. </code>
+      <accountType>ActivePassive</accountType>
+      <order>90. </order>
+      <childItems id="f40d0650-e41c-4449-8d9d-be2f247b2117">
+        <name>Выручка</name>
+        <description>Выручка</description>
+        <code>90.1</code>
+        <accountType>Passive</accountType>
+        <order>90.1</order>
+      </childItems>
+      <childItems id="5b287149-9cef-476f-8b68-a078f7d6e24b">
+        <name>Расходы</name>
+        <description>Расходы</description>
+        <code>90.2</code>
+        <order>90.2</order>
+      </childItems>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <autoOrderByCode>true</autoOrderByCode>
+  <orderLength>4</orderLength>
+  <accountingFlags uuid="5eca355a-2348-462d-81d2-cd15b1c13575">
+    <name>Количественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количественный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </accountingFlags>
+</mdclass:ChartOfAccounts>

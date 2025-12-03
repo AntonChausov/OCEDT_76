@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb7717d0-00eb-47e7-8cfd-eaed5bbb116c">
+  <producedTypes>
+    <containerType typeId="f17adbce-ba02-4600-8365-835988dea1ef" valueTypeId="2fe1d9dd-f01f-468e-ad6e-3c0052b4fb9a"/>
+  </producedTypes>
+  <name>Сумма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сумма</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

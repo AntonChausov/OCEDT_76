@@ -10,4 +10,5 @@
   <content>ChartOfAccounts.Управленческий</content>
   <content>AccountingRegister.Управленческий</content>
   <content>Document.ПеремещениеПоСкладам</content>
+  <content>Document.ПриемНаРаботу</content>
 </mdclass:Subsystem>

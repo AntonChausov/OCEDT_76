@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6d03d5f-d6ba-4f50-bc1d-29ca50e3e111">
+  <producedTypes>
+    <objectType typeId="80946d12-f7dd-4e03-9d2c-95da9d298384" valueTypeId="001b28bf-7dc9-4939-b408-6163f9ba8dea"/>
+    <refType typeId="42843175-7c1d-4ad2-b4c9-2f19142806b3" valueTypeId="6dc13286-d219-4b56-a6bb-6be4fe2fada4"/>
+    <selectionType typeId="884fd3bf-adc8-48ef-903e-febfa410e94e" valueTypeId="39fadd35-49e3-4bc6-b57d-23b7848a4a1b"/>
+    <listType typeId="73f9a85e-c454-4f60-ad1b-284ab84f584e" valueTypeId="56e3bd60-9115-48df-97ee-b156307c7511"/>
+    <managerType typeId="6a2d6c8d-6c52-428c-a97e-0014bbe9e9cd" valueTypeId="75366152-c1b4-437e-8824-8616657a8bf1"/>
+  </producedTypes>
+  <name>ПриемНаРаботу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прием на работу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПриемНаРаботу.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="bb0e7c00-438f-44d3-9271-6994c2155e9d">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

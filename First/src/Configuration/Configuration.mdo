@@ -65,6 +65,7 @@
   <documents>Document.ПоступлениеДенежныхСредств</documents>
   <documents>Document.СписаниеДенежныхСредств</documents>
   <documents>Document.ПеремещениеПоСкладам</documents>
+  <documents>Document.ПриемНаРаботу</documents>
   <documentJournals>DocumentJournal.ЦеныИСкидки</documentJournals>
   <documentJournals>DocumentJournal.Сделки</documentJournals>
   <documentJournals>DocumentJournal.Деньги</documentJournals>

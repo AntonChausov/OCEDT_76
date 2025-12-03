@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbd970f1-b52b-4642-a437-00a466e4feaa">
+  <producedTypes>
+    <objectType typeId="8f818624-3d21-43ef-ada4-5e2e6e2d4a82" valueTypeId="678b4b6f-e4b8-4b71-a543-d9f53f0fd4e7"/>
+    <refType typeId="66a3ad0a-ef9d-4de3-a441-c1a54bac34df" valueTypeId="30cfa22b-0b03-4a06-9171-9f7630c8a252"/>
+    <selectionType typeId="32803df4-721c-45a3-8fc6-4301bc924dbe" valueTypeId="fc477ffa-2361-4ec5-a1b7-3a0c4f864940"/>
+    <listType typeId="71e5ca9f-6109-4ded-b15f-a0af49f5b6c2" valueTypeId="dece9cdb-fea6-4f8c-b4bd-18485f660d1b"/>
+    <managerType typeId="5ade9449-4737-4d37-b48e-78af83003c7f" valueTypeId="21e3b4c1-66fd-4122-8a0e-bfc0fbc67ff4"/>
+  </producedTypes>
+  <name>Поставщики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поставщики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Поставщики.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Поставщики.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -29,4 +29,5 @@
   <content>DocumentJournal.ЦеныИСкидки</content>
   <content>InformationRegister.Скидки</content>
   <content>Catalog.Производители</content>
+  <content>Catalog.Поставщики</content>
 </mdclass:Subsystem>
